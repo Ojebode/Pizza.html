@@ -1,0 +1,167 @@
+﻿<!DOCTYPE HTML/>
+
+  <html>
+  <head>
+     <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen">
+     
+     <title>Dial - +971553625244&nbsp;&nbsp;&nbsp;&nbsp; Owner O</title>
+     
+
+  </head>
+
+  <body>
+  
+  <div id="wrapper">
+        
+        <div id="top">
+              <div id="logo">
+                 <img src="image/viki.png" />
+              </div>
+              
+              <div id="founder">
+                <p>Dial - +971553625244 </p><br>
+                <img src=image/alt.png /><br>
+                <br>
+                <p>Owner Of Vik'z Pizza</p>
+              </div>
+          
+        </div>
+        
+        <div id="topnav">
+           <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="Registration.html">REGISTRATION</a></li>
+              <li><a href="Fillorder.html">FIll ORDER</a></li>
+              <li><a href="comment.html">COMMENTS</a></li>
+              <li><a href="Aboutus.html">ABOUT US</a></li>
+           </ul>
+        </div>
+        
+        <div id="banner">
+              <img src="image/chik.jpg" />
+        </div>
+        
+        <div id="content">
+                           <h1>Please Fill the form below.</h1>
+                   <form id="loginForm" method="POST" action="thanku.html"  onsubmit="return validate()">
+                       <p class="auto-style1">
+                       
+                    <p><label>&nbsp;&nbsp; FIRST NAME:&nbsp;&nbsp;&nbsp;&nbsp;    
+	                   <input type="text" id="firstname" name="FirstName" maxlength="10" dir="ltr" style="width: 156px" tabindex="1"><br></p>
+	                   
+                    <p><label>&nbsp;&nbsp; LAST NAME:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                    <input type="text" id="lastname" name="LASTNAME" maxlength="10" dir="ltr" style="width: 156px" tabindex="3">  <br></p>
+                    
+                    <p><label>&nbsp;&nbsp; COUNTRY:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                    <input type="text" id="country" name="COUNTRY" maxlength="10" dir="ltr" style="width: 156px" tabindex="4"  <br></p>
+	               
+                    <p><label>&nbsp;&nbsp; Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                    <input type="text" id="address" name="address" maxlength="10" dir="ltr" style="width: 156px" tabindex="4"  <br></p>
+	                
+	                <p><label>&nbsp;&nbsp; MOBILE NO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+	                <input type="number" id="mobile" name="MOBILENO" maxlength="10" style="width: 156px" tabindex="6">  <br></p>
+	              
+                    <p><label>&nbsp;&nbsp; EMAIL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+	                <input type="text" id="email" name="EMAIL" maxlength="20" style="width: 155px" tabindex="7">  <br></p>
+	 
+	                <input type="submit" id="submitButton" value="OK" style="width: 115px" dir="rtl" />
+	                
+              </form>
+                    
+
+             <p>Note: PLEASE MAKE SURE YOUR ENTRIES ARE CORRECT BEFORE SUBMITTING THE FORM</p>
+              
+        	                  
+                         
+        </div>
+              
+        <div id="rightside">
+        
+             <h2>Promotion</h2>
+             
+             <p>Patronize us for a minimum of ten(10) orders from Vik'z Pizza and 
+			 you will be rewarded with the exotic wines below.</p>
+                
+                <img src="image/Drinks/blanc.png" />
+                
+                
+
+        </div>
+        
+        <div id="footer">
+              <ul>
+              <li><a href="main.html">HOME</a></li>
+              <li><a href="Registration.html">REGISTRATION</a></li>
+              <li><a href="Fillorder.html">FIll ORDER</a></li>
+              <li><a href="comment.html">COMMENTS</a></li>
+              <li><a href="Aboutus.html">ABOUT US</a></li>
+
+           </ul>
+
+        </div>  
+        
+  </div>      
+  
+  <script>
+  
+  	function validate()
+	{
+		var name = document.getElementById('firstname').value;
+		
+		if( name.length == 0 ) 
+		  { alert('You must enter a name');
+		    return false;
+		  }
+    
+         var lname = document.getElementById('lastname').value;
+		
+		if( lname.length == 0 ) 
+		  { alert('You must enter a name');
+		    return false;
+		  }
+
+         var contry = document.getElementById('country').value;
+		
+		if( contry.length == 0 ) 
+		  { alert('You must enter your present country');
+		    return false;
+		  }
+		
+		    
+		  
+		var addr = document.getElementById('address').value;
+		
+		if( addr.length == 0 ) 
+		  { alert('You must enter your Address');
+		    return false;
+		  }
+		
+			  
+         var mob = document.getElementById('mobile').value;
+		
+		if( mob.length == 0 ) 
+		  { alert('You must enter yor mobile number');
+		    return false;
+		  }
+		  
+		  var mail = document.getElementById('email').value;
+		
+		if( mail.length == 0 ) 
+		  { alert('You must enter your Email ');
+		    return false;
+		  }
+
+		  
+		document.getElementById('loginForm').submit();
+		return true;
+	}
+	
+	document.getElementById('submitButton').addEventListener('click',validate);
+		
+
+  </script>
+  </body>
+
+<!-- #EndTemplate -->
+
+</html>

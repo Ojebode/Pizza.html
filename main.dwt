@@ -1,0 +1,94 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+  <head>
+     <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen">
+     <!-- #BeginEditable "doctitle" -->
+     <title>Welcome to Vik'z Pizza</title>
+  <!-- #EndEditable -->
+  </head>
+
+  <body>
+  
+  <div id="wrapper">
+        
+        <div id="top">
+              <div id="logo">
+                 <img src="image/viki.png" />
+              </div>
+              
+              <div id="founder">
+                <p>Dial - +971553625244 </p><br>
+                <img src=image/alt.png /><br>
+                <br>
+                <p>Owner Of Vik'z Pizza</p>
+              </div>
+          
+        </div>
+        
+        <div id="topnav">
+           <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="Registration.html">REGISTRATION</a></li>
+              <li><a href="Fillorder.html">FIll ORDER</a></li>
+              <li><a href="comment.html">COMMENTS</a></li>
+              <li><a href="Aboutus.html">ABOUT US</a></li>
+           </ul>
+        </div>
+        
+        <div id="banner">
+              <img src="image/chik.jpg" />
+        </div>
+        
+        <div id="content">
+              <!-- #BeginEditable "Content" -->
+              <h1> Welcome to Vik'z Pizza!</h1>
+              <p>Vik'z Pizza is one of the leading and most recognised pizza resturant in the world.We strive to satisfy our customers taste and  
+                 preferences.Our primary aim is to quench our customer hunger with our various pizza options available with great taste.                         
+                 All of our menu items are available at any time of the day.We offer take-out services for whatever your occasions are but that requires
+                 to visit us at our base to discuss better.</p><br>
+ 
+                  <p>     
+                  Business Hours:<br>
+                  Daily 8:30 a.m.-12a.m.<br>
+                  Open 7 days a week</p><br>
+                  <br>            
+                       
+                 <figure>
+                 <a href="Menu.html"><img src="image/men.jpg"></a>
+                 <figcaption>Click on image to go directly to menu</figcaption>
+                 </figure>
+                 
+        <!-- #EndEditable -->
+                 
+        </div>
+              
+        <div id="rightside">
+        
+             <h2>Promotion</h2>
+             
+             <p>Patronize us for a minimum of ten(10) orders from Vik'z Pizza and 
+			 you will be rewarded with the exotic wines below.</p>
+                
+                <img src="image/Drinks/blanc.png" />
+                
+                
+
+        </div>
+        
+        <div id="footer">
+              <ul>
+              <li><a href="main.html">HOME</a></li>
+              <li><a href="Registration.html">REGISTRATION</a></li>
+              <li><a href="Fillorder.html">FIll ORDER</a></li>
+              <li><a href="comment.html">COMMENTS</a></li>
+              <li><a href="Aboutus.html">ABOUT US</a></li>
+
+           </ul>
+
+        </div>  
+        
+  </div>      
+  </body>
+
+</html>
